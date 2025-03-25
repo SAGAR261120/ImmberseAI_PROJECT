@@ -1,0 +1,147 @@
+body {
+  background-color: #010208;
+}
+
+.gradient-bg {
+  background: linear-gradient(90deg, #a636d7, #e34f9d);
+}
+
+.active {
+  color: #c824ec !important;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 3px;
+  background-color: white;
+  margin: auto;
+}
+
+.sign-up-btn {
+  font-size: smaller;
+  font-weight: 700;
+}
+
+.max-height-200px {
+  max-height: 200px;
+}
+.testimonial-section {
+  background: linear-gradient(to bottom, #b936f540, transparent);
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+.h-100 {
+  height: 90px !important;
+}
+
+.gradient-half-circle {
+  position: absolute;
+  top: 0;
+  left: 90px;
+  width: 300px;
+  height: 150px;
+  background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
+  border-radius: 150px 150px 0 0;
+  pointer-events: none;
+  transform: rotate(180deg);
+}
+
+.gradient-half-circle-left {
+  position: absolute;
+  top: 400px;
+  left: -80px;
+  width: 300px;
+  height: 150px;
+  background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
+  border-radius: 150px 150px 0 0;
+  pointer-events: none;
+  transform: rotate(90deg);
+}
+body,
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.gradient-half-circle-left-signup {
+  position: absolute;
+  top: 70px;
+  left: -80px;
+  width: 300px;
+  height: 150px;
+  background: radial-gradient(circle at bottom, #f0149d80, transparent 70%);
+  border-radius: 150px 150px 0 0;
+  pointer-events: none;
+  transform: rotate(90deg);
+}
+
+.gradient-half-circle-right-signup {
+  position: absolute;
+  top: 70px;
+  right: -74px;
+  width: 300px;
+  height: 150px;
+  background: radial-gradient(circle at bottom, #143ff080, transparent 70%);
+  border-radius: 150px 150px 0 0;
+  pointer-events: none;
+  transform: rotate(-90deg);
+}
+
+.gradient-half-circle-left2 {
+  position: absolute;
+  top: 160px;
+  left: -170px;
+  width: 350px;
+  height: 150px;
+  background: radial-gradient(circle at bottom, #aa14f080, transparent 100%);
+  border-radius: 150px 150px 0 0;
+  pointer-events: none;
+  transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .vr-heading {
+    font-size: 24px;
+  }
+  .vr-description {
+    font-size: 14px;
+    text-align: center;
+  }
+  .vr-experience-section {
+    padding: 20px;
+  }
+  .vr-image-container img {
+    max-width: 100%;
+  }
+}
+
+.image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button i {
+  font-size: 20px;
+}
+
+.signupbutton {
+  border-radius: 50px;
+  background: #ffffff26;
+}
