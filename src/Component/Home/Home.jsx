@@ -13,7 +13,7 @@ import Ellipse11 from "../../assets/Image/Ellipse11.png";
 import Ellipse12 from "../../assets/Image/Ellipse12.png";
 import Ellipse13 from "../../assets/Image/Ellipse13.png";
 
-const Main = () => {
+const Home = () => {
   return (
     <div>
       <section
@@ -273,4 +273,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;
