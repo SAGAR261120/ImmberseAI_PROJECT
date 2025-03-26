@@ -74,6 +74,19 @@ body {
   pointer-events: none;
   transform: rotate(90deg);
 }
+
+/* Right Half Circle */
+.gradient-half-circle-right {
+  position: absolute;
+  top: -18vh;
+  right: -76px; /* Positioned on the right side */
+  width: 300px;
+  height: 150px;
+  background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
+  border-radius: 150px 150px 0 0;
+  pointer-events: none;
+  transform: rotate(-90deg); /* Rotate to the right */
+}
 body,
 html {
   overflow-x: hidden;
