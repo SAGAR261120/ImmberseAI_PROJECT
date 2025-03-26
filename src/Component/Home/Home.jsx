@@ -68,7 +68,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="mt-4 mb-4 vr-experience-section text-light d-flex align-items-center justify-content-center">
+      <section className="mt-4 mb-4 vr-experience-section text-light d-flex align-items-center justify-content-center position-relative">
         <div className="gradient-half-circle-left"></div>
         <div className="container">
           <div className="row align-items-center">
