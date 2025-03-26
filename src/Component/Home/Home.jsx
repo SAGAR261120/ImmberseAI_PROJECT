@@ -21,7 +21,7 @@ const Home = () => {
         style={{ minHeight: "100vh" }}
       >
         <div className="container">
-          <div className="row align-items-center justify-content-center text-center text-lg-start">
+          <div className="row align-items-center p-3 justify-content-center text-center text-lg-start">
             {/* Left Section */}
             <div className="col-lg-6">
               <h1 className="display-4 fw-bold">
@@ -73,7 +73,7 @@ const Home = () => {
         <div className="container">
           <div className="row align-items-center">
             {/* Image Section */}
-            <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-start">
+            <div className="col-12 col-md-6 d-flex justify-content-center">
               <div className="image-group d-flex position-relative">
                 <div
                   className="vr-image-container position-relative "
