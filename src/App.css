@@ -47,7 +47,7 @@ body {
   height: 150px; */
   width: 375px;
   height: 234px;
-  background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
+  background: radial-gradient(circle at bottom, #aa14f057, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;
   transform: rotate(180deg);
@@ -74,7 +74,7 @@ body {
 
   width: 375px;
   height: 234px;
-  background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
+  background: radial-gradient(circle at bottom, #aa14f057, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;
   transform: rotate(90deg);
@@ -89,7 +89,7 @@ body {
   height: 150px; */
   width: 375px;
   height: 234px;
-  background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
+  background: radial-gradient(circle at bottom, #aa14f057, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;
   transform: rotate(-90deg); /* Rotate to the right */
@@ -109,9 +109,11 @@ html {
   position: absolute;
   top: 70px;
   left: -80px;
-  width: 300px;
-  height: 150px;
-  background: radial-gradient(circle at bottom, #f0149d80, transparent 70%);
+  /* width: 300px;
+  height: 150px; */
+  width: 375px;
+  height: 234px;
+  background: radial-gradient(circle at bottom, #aa14f057, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;
   transform: rotate(90deg);
@@ -121,8 +123,10 @@ html {
   position: absolute;
   top: 70px;
   right: -74px;
-  width: 300px;
-  height: 150px;
+  /* width: 300px;
+  height: 150px; */
+  width: 375px;
+  height: 234px;
   background: radial-gradient(circle at bottom, #143ff080, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;

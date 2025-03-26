@@ -3,7 +3,7 @@ import signupImg from "../../assets/Image/signupImg.png";
 
 const Signup = () => {
   return (
-    <div className="container d-flex mt-5 flex-column align-items-center justify-content-center  text-white ">
+    <div className="container d-flex mt-5 flex-column align-items-center justify-content-center  text-white position-relative ">
       <div className="gradient-half-circle-left-signup"></div>
       <div className="gradient-half-circle-right-signup"></div>
       <div className="image-container mb-3">
