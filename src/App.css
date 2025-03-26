@@ -43,8 +43,10 @@ body {
   position: absolute;
   top: 0;
   left: 90px;
-  width: 300px;
-  height: 150px;
+  /* width: 300px;
+  height: 150px; */
+  width: 375px;
+  height: 234px;
   background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;
@@ -67,8 +69,11 @@ body {
   position: absolute;
   top: -18vh;
   left: -76px;
-  width: 300px;
-  height: 150px;
+  /* width: 300px;
+  height: 150px; */
+
+  width: 375px;
+  height: 234px;
   background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;
@@ -80,8 +85,10 @@ body {
   position: absolute;
   top: -25vh;
   right: -76px; /* Positioned on the right side */
-  width: 300px;
-  height: 150px;
+  /* width: 300px;
+  height: 150px; */
+  width: 375px;
+  height: 234px;
   background: radial-gradient(circle at bottom, #aa14f080, transparent 70%);
   border-radius: 150px 150px 0 0;
   pointer-events: none;
