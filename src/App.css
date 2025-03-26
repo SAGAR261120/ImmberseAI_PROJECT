@@ -78,7 +78,7 @@ body {
 /* Right Half Circle */
 .gradient-half-circle-right {
   position: absolute;
-  top: -18vh;
+  top: -25vh;
   right: -76px; /* Positioned on the right side */
   width: 300px;
   height: 150px;
