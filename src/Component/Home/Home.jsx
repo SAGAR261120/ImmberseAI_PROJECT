@@ -50,7 +50,8 @@ const Home = () => {
                   alt="Online Users"
                   style={{ width: "150px" }}
                 />
-                <a className="btn text-white " href="#">
+                <a className="btn text-white " href="#">            <span className="font-size-larger">   <i class="bi bi-dot"></i></span> 
+
                   400k people online
                 </a>
               </div>
@@ -72,14 +73,14 @@ const Home = () => {
         <div className="gradient-half-circle-left"></div>
         <div className="gradient-half-circle-right"></div>
 
-        <div className="container">
+        <div className="">
           <div className="row align-items-center">
             {/* Image Section */}
             <div className="col-12 col-md-6 d-flex justify-content-center">
               <div className="image-group d-flex position-relative">
                 <div
                   className="vr-image-container position-relative "
-                  style={{ marginTop: "-30px" }}
+                  style={{ marginTop: "-50px" }}
                 >
                   <img
                     src={vrImage1}
@@ -151,22 +152,22 @@ const Home = () => {
         <div className="row g-4">
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group46} className="img-fluid rounded mb-3" />
+              <img src={group46} className="img-fluid rounded mb-3 w-300px" loading="lazy"/>
             </div>
           </div>
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group44} className="img-fluid rounded mb-3" />
+              <img src={group44} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
             </div>
           </div>
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group37} className="img-fluid rounded mb-3" />
+              <img src={group37} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
             </div>
           </div>
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group47} className="img-fluid rounded mb-3" />
+              <img src={group47} className="img-fluid rounded mb-3 w-300px"  loading="lazy"/>
             </div>
           </div>
         </div>

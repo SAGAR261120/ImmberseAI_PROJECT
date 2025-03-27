@@ -7,7 +7,7 @@ const Signup = () => {
       <div className="gradient-half-circle-left-signup"></div>
       <div className="gradient-half-circle-right-signup"></div>
       <div className="image-container mb-3">
-        <img src={signupImg} alt="AI Character" className="avatar" />
+        <img src={signupImg} alt="AI Character" className="avatar" loading="lazy" />
       </div>
       <h1 className="fw-bold">Welcome To BookApp</h1>
       <button className="btn text-white w-75 my-2 d-flex align-items-center justify-content-center signupbutton">

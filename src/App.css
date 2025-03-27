@@ -11,6 +11,13 @@ body {
   display: inline-block;
   padding-bottom: 5px;
 }
+.font-size-larger{
+  font-size: larger;
+}
+
+.w-300px{
+  width: 300px;
+}
 
 .active::after {
   content: "";
