@@ -1,19 +1,21 @@
 import React from "react";
-import headerrightimage from "../../assets/Image/headerrightimage.png";
-import Group1 from "../../assets/Image/Group1.png";
-import vrImage1 from "../../assets/Image/Vector1.png";
-import vrImage2 from "../../assets/Image/Vector2.png";
-import background from "../../assets/Image/Vector5.png";
-import group35 from "../../assets/Image/Group35.png";
-import group37 from "../../assets/Image/Group37.png";
-import group44 from "../../assets/Image/Group44.png";
-import group46 from "../../assets/Image/Group46.png";
-import group47 from "../../assets/Image/Group47.png";
-import Ellipse11 from "../../assets/Image/Ellipse11.png";
-import Ellipse12 from "../../assets/Image/Ellipse12.png";
-import Ellipse13 from "../../assets/Image/Ellipse13.png";
+import headerrightimage from "../assets/Image/headerrightimage.png";
+import Group1 from "../assets/Image/Group1.png";
+import vrImage1 from "../assets/Image/Vector1.png";
+import vrImage2 from "../assets/Image/Vector2.png";
+import background from "../assets/Image/Vector5.png";
+import group35 from "../assets/Image/Group35.png";
+import group37 from "../assets/Image/Group37.png";
+import group44 from "../assets/Image/Group44.png";
+import group46 from "../assets/Image/Group46.png";
+import group47 from "../assets/Image/Group47.png";
+import Ellipse11 from "../assets/Image/Ellipse11.png";
+import Ellipse12 from "../assets/Image/Ellipse12.png";
+import Ellipse13 from "../assets/Image/Ellipse13.png";
+import Image from "next/image";
 
-const Home = () => {
+
+const page = () => {
   return (
     <div>
       <section
@@ -44,13 +46,13 @@ const Home = () => {
               </div>
 
               <div className="mt-4 d-flex flex-column flex-sm-row align-items-center">
-                <img
+                <Image
                   src={Group1}
                   className="me-sm-2 mb-2 mb-sm-0"
                   alt="Online Users"
                   style={{ width: "150px" }}
                 />
-                <a className="btn text-white " href="#">            <span className="font-size-larger">   <i class="bi bi-dot"></i></span> 
+                <a className="btn text-white " href="#">            <span className="font-size-larger">   <i className="bi bi-dot"></i></span>
 
                   400k people online
                 </a>
@@ -59,7 +61,7 @@ const Home = () => {
 
             {/* Right Section */}
             <div className="col-lg-6 text-center">
-              <img
+              <Image
                 src={headerrightimage}
                 className="img-fluid"
                 alt="Header Right"
@@ -82,7 +84,7 @@ const Home = () => {
                   className="vr-image-container position-relative "
                   style={{ marginTop: "-50px" }}
                 >
-                  <img
+                  <Image
                     src={vrImage1}
                     className="vr-image img-fluid"
                     alt="VR Woman"
@@ -90,7 +92,7 @@ const Home = () => {
                   />
                 </div>
                 <div className="vr-image-container ms-3">
-                  <img
+                  <Image
                     src={vrImage2}
                     className="vr-image img-fluid"
                     alt="VR Man"
@@ -133,7 +135,8 @@ const Home = () => {
             <div className="col-12 col-md-7 d-flex justify-content-center justify-content-md-end mt-4 mt-md-0">
               <div className="image-group d-flex position-relative">
                 <div className="vr-image-container p-3">
-                  <img
+                  <Image
+                    alt="img"
                     src={group35}
                     className="img-fluid"
                     style={{ maxHeight: "150px" }}
@@ -152,22 +155,26 @@ const Home = () => {
         <div className="row g-4">
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group46} className="img-fluid rounded mb-3 w-300px" loading="lazy"/>
+              <Image alt="img"
+                src={group46} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
             </div>
           </div>
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group44} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
+              <Image alt="img"
+                src={group44} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
             </div>
           </div>
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group37} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
+              <Image alt="img"
+                src={group37} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
             </div>
           </div>
           <div className="col-lg-6 col-lg-6">
             <div className=" d-flex justify-content-center p-3 rounded text-white">
-              <img src={group47} className="img-fluid rounded mb-3 w-300px"  loading="lazy"/>
+              <Image alt="img"
+                src={group47} className="img-fluid rounded mb-3 w-300px" loading="lazy" />
             </div>
           </div>
         </div>
@@ -199,10 +206,12 @@ const Home = () => {
                 </div>
                 <div className="d-flex text-start mt-3">
                   <div>
-                    <img
+                    <Image
                       src={Ellipse11}
                       className="rounded-circle me-3"
                       style={{ height: "25px" }}
+                      alt="img"
+
                     />
                     <p className="text-white mb-0">Denny Hilguston</p>
                     <p style={{ color: "#EB4468" }}>@denny.hill</p>
@@ -229,7 +238,9 @@ const Home = () => {
                 </div>
                 <div className="d-flex text-start mt-3">
                   <div>
-                    <img
+                    <Image
+                      alt="img"
+
                       src={Ellipse12}
                       className="rounded-circle me-3"
                       style={{ height: "25px" }}
@@ -258,7 +269,9 @@ const Home = () => {
                 </div>
                 <div className="d-flex text-start mt-3">
                   <div>
-                    <img
+                    <Image
+                      alt="img"
+
                       src={Ellipse13}
                       className="rounded-circle me-3"
                       style={{ height: "25px" }}
@@ -276,4 +289,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default page;

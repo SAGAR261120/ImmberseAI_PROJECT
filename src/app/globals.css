@@ -1,6 +1,14 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css");
+
 body {
-  background-color: #010208;
+  background-color: #010208 !important;
 }
+
+button i {
+  font-size: 20px !important;
+}
+
+
 
 .gradient-bg {
   background: linear-gradient(90deg, #a636d7, #e34f9d);
@@ -178,10 +186,6 @@ html {
 .avatar {
   width: 100%;
   border-radius: 10px;
-}
-
-button i {
-  font-size: 20px;
 }
 
 .signupbutton {
